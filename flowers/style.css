@@ -1,0 +1,38 @@
+html {
+	/* Using web safe font */
+	font-family: 'Helvetica', sans-serif;
+}
+
+p{
+	font-size: 24px;
+}
+
+img{
+	width: 100vw;
+}
+
+.hello{
+	background: yellow;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+}
+
+.description{
+	background: green;
+	color: white;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+.location{
+	background: pink;
+	position: relative;
+	left: 50%;
+}
+
+.more{
+	background: black;
+	color: white;
+}
