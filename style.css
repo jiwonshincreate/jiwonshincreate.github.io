@@ -1,0 +1,63 @@
+html{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, .name{
+	text-align: center;
+}
+
+.row{
+	display: inline-grid;
+	grid-template-columns: 33% 33% 33%;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.icecreams{
+	width: 100%;
+}
+
+.item{
+	/* Set display to be inline and block */
+	display: block;
+	padding: 6px;
+}
+
+.chocolate{
+	background: #502a01;
+	color: white;
+}
+
+.greentea{
+	background: #cccea1;
+}
+
+.raspberry{
+	background: pink;
+}
+
+.pepperoni{
+	background: darkred;
+	color: white;
+}
+
+.onion{
+	background: purple;
+	color: white;
+}
+
+.pineapple{
+	background: lightyellow;
+}
+
+.coffee{
+	background: #bc8339;
+}
+
+.icedtea{
+	background: #e6a500;
+}
+
+.bubble{
+	background: beige;
+}
